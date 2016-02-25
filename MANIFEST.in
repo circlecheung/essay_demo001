@@ -1,0 +1,1 @@
+recursive-include  essay_demo001 *.css *.js *.jpg *.gif *.png *.html *.md
