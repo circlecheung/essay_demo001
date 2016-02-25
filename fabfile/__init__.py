@@ -13,7 +13,7 @@ from essay.tasks import deploy
 
 env.GIT_SERVER = 'https://github.com/'  # ssh地址只需要填：github.com
 env.PROJECT = 'essay_demo001'
-env.BUILD_PATH = '/home/zhang/x'
+env.BUILD_PATH = '/home/zhang/x/'
 env.PROJECT_OWNER = 'circlecheung'
 env.DEFAULT_BRANCH = 'master'
 env.PYPI_INDEX = 'http://pypi.python.org/simple/'
@@ -23,7 +23,7 @@ env.PYPI_INDEX = 'http://pypi.python.org/simple/'
 # deploy settings:
 env.PROCESS_COUNT = 2  #部署时启动的进程数目
 env.roledefs = {
-    'build': ['zhang@127.0.0.1:80'],  # 打包服务器配置
+    'build': ['zhang@127.0.0.1'],  # 打包服务器配置
     'dev': [''],
 }
 
